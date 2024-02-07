@@ -35,10 +35,13 @@ cmake --build .
 ctest --rerun-failed --output-on-failure
 ```
 
-## Windows
+### Windows
 
 - To create Visual Studio sulution, you can use CMake gui.
 
+### Usage
+
+- Just run the executable.
 
 ## TODO
 
