@@ -35,9 +35,11 @@ cmake --build .
 ctest --rerun-failed --output-on-failure
 ```
 
+- There is also build.sh script in the root directory, that will do the same.
+
 ### Windows
 
-- To create Visual Studio sulution, you can use CMake gui.
+- To create Visual Studio sulution, you can use CMake gui in old-fashioned way, or just directly [import CMake project](https://learn.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-170).
 
 ### Usage
 
