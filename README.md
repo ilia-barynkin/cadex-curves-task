@@ -25,9 +25,9 @@ Design a small program in C++ that implements support for a hierarchy of 3D curv
 
 ### Linux
 
-    - To build the project, you must clone the repository and run the following code snippet in the terminal:
-
     ```bash
+    git clone https://github.com/ilia-barynkin/cadex-curves-task.git
+    cd cadex-curves-task
     mkdir build
     cd build
     cmake ..
@@ -35,7 +35,7 @@ Design a small program in C++ that implements support for a hierarchy of 3D curv
     ctest --rerun-failed --output-on-failure
     ```
 
-### Windows
+## Windows
 
     - To create Visual Studio sulution, you can use CMake gui.
 
