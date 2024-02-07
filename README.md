@@ -25,14 +25,15 @@ Design a small program in C++ that implements support for a hierarchy of 3D curv
 
 ### Linux
 
-```#!/bin/bash
+```bash
 git clone https://github.com/ilia-barynkin/cadex-curves-task.git
 cd cadex-curves-task
 mkdir build
 cd build
 cmake ..
 cmake --build .
-ctest --rerun-failed --output-on-failure```
+ctest --rerun-failed --output-on-failure
+```
 
 ## Windows
 
