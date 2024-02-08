@@ -46,7 +46,8 @@ ctest --rerun-failed --output-on-failure
 - Just run the executable, e.g.
 
 ```bash
-build/main/main```
+build/main/main
+```
 
 ## TODO
 
