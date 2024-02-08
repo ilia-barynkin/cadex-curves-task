@@ -18,25 +18,28 @@ void printHelp() {
 
 void parseArgs(int argc, char* argv[], int& maxNumberOfCurves, double& t) {
     if (argc > 1) {
-        if (argv[1] == "--help" || argv[1] == "-h") {
+        std::string arg1 = argv[1];
+        if (arg1 == "--help" || arg1 == "-h") {
             printHelp();
-            exit(1);
+            exit(0);
         }
 
         try {
-            maxNumberOfCurves = std::stoi(argv[1]);   
+            maxNumberOfCurves = std::stoi(arg1);   
         }
         catch (const std::invalid_argument& e) {
             std::cerr << "Error: " << e.what() << std::endl;
             exit(1);
         }
     } else {
-        maxNumberOfCurves = std::rand() % 91 + 10; // 10 <= maxNumberOfCurves <= 100
+        maxNumberOfCurves = std::rand() % 91 + 10;
     }
 
     if (argc > 2) {
+        std::string arg2 = argv[2];
+
         try {
-            t = std::stod(argv[2]);
+            t = std::stod(arg2);
         }
         catch (const std::invalid_argument& e) {
             std::cerr << "Error: " << e.what() << std::endl;
