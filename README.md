@@ -35,7 +35,7 @@ cmake --build .
 ctest --rerun-failed --output-on-failure
 ```
 
-- There is also build.sh script in the root directory, that will do the same.
+- There is also build.sh script in the root directory, that will do the same thing and run the executable afterwards.
 
 ### Windows
 
@@ -43,8 +43,11 @@ ctest --rerun-failed --output-on-failure
 
 ### Usage
 
-- Just run the executable.
+- Just run the executable, e.g.
+
+```bash
+build/main/main```
 
 ## TODO
 
-Add data visualization to the python directory for greater clarity.
+Add data visualization to the python directory for greater clarity (if it is needed and worth the time).
