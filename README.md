@@ -51,4 +51,4 @@ build/main/main
 
 ## TODO
 
-Add some python bindings for **libcuves** and some python scripts for data visualization (if it is needed and worth the time, **python** dir is in repo's root for this exact reason).
+Add some python bindings for **libcuves** and some python scripts for data visualization (if it is needed and worth the time, **python** directory is in the repo's root for this exact reason).
