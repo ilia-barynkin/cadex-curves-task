@@ -47,4 +47,4 @@ ctest --rerun-failed --output-on-failure
 
 ## TODO
 
-Add data visualization to the python directory for greater clarity.
+Add data visualization to the python directory for greater clarity (if it is needed and worth the time).
