@@ -111,7 +111,7 @@ int main(int argc, char* argv[]) {
     }
 
     // print the result:
-    std::cout << "Total total sum of radii of all curves in the second container (i.e. sum of all circles): " << totalRadius << std::endl;
+    std::cout << "Total sum of radii of all curves in the second container (i.e. sum of all circles): " << totalRadius << std::endl;
 
     return 0;
 }
